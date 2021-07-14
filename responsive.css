@@ -1,15 +1,22 @@
 
-/* for mobile devices */
+       /* ------------------------------
+       Media query for mobile devices 
+       ------------------------------*/
+
+
+       /*=======================
+          For mobile Devices
+       ========================*/
 
 @media only screen and (max-width:688px){
-    /* header section starts from here */
+    /*--------------------------------------
+          header section starts from here 
+     -----------------------------------------*/
 .header-container{
     width: 100%;
     padding: 0;
 }
-.header-img{
-    width: 100%;
-}
+
 .header-content{
     flex-direction: column;
     align-items: center;
@@ -24,10 +31,18 @@
     margin: 20px 0px;
 }
 
-/* header section end */
+.header-img{
+    width: 100%;
+}
+
+
+/*-----------------------------
+Player section starts from here
+-------------------------------*/
 .container{
     width: 100%;
     padding: 0;
+    margin-top: 35px;
 
 }
 .player-list{
@@ -42,7 +57,10 @@ grid-row-gap: 35px;
     width: 100%;
 }
 
-/* gallery section starts from here */
+/*---------------------------------
+  gallery section starts from here
+----------------------------------- */
+
 .gallery-images-main{
     width: 100%;
     grid-template-columns: repeat(1 , 1fr);
@@ -52,7 +70,9 @@ grid-row-gap: 35px;
     width: 100%;
 }
 
-/* video gallery starts from here */
+/* ------------------------------------
+   video gallery starts from here
+----------------------------------- */
 .video-gallery{
     width: 100%;
 }
@@ -65,7 +85,9 @@ iframe{
     margin-bottom: 20px;
 }
 
-/* footer section starts from here */
+/*------------------------------ 
+footer section starts from here
+--------------------------------- */
 
 .footer-image img{
 width: 100%;
@@ -73,9 +95,15 @@ text-align: center;
 }
 }
 
-/* for tablet devices */
+
+
+/*=======================================
+             for tablet devices
+ ======================================== */
 @media only screen and (min-width:688px) and (max-width:992px) {
-  /* header section starts from here */
+/*--------------------------------------
+    header section starts from here 
+-----------------------------------------*/
   .header-container{
       width: 100%;
       padding: 0;
@@ -85,11 +113,14 @@ text-align: center;
     padding: 0px 0px;
     padding-left: 30px;
 }
-  /* player section starts from here */
+  /* --------------------------------
+     player section starts from here
+  ----------------------------------- */
   
   .container{
     width: 100%;
     padding: 0;
+    margin-top: 35px;
 
 }
 .player-list{
@@ -104,7 +135,9 @@ grid-row-gap: 35px;
     width: 100%;
 }
   
-  /* gallery section starts from here */
+  /* -----------------------------------------
+         gallery section starts from here 
+  --------------------------------------------*/
   
   .gallery-images-main{
     width: 100%;
@@ -115,7 +148,9 @@ grid-row-gap: 35px;
     height: auto;
     width: 100%;
 }
-/* video section starts from here */
+/* ---------------------------------
+    video section starts from here
+------------------------------------ */
 .video-gallery{
     width: 100%;
 }
@@ -129,7 +164,9 @@ iframe{
 }
    
 
-/* footer section starts from here */
+/*--------------------------------------------
+      footer section starts from here
+ -------------------------------------------- */
 
 .footer-image img{
     width: 100%;
@@ -142,15 +179,21 @@ iframe{
 }
 
 
-/* for desktop */
+/*==========================================
+                 for desktop devices
+ ===========================================*/
 @media only screen and (min-width:992px) and (max-width:1312px){
-/* header section starts from here */
+/*-------------------------------------
+     header section starts from here 
+ -------------------------------------*/
     .header-container {
         width: 100%;
         padding:30px 0px;
     }
 
-    /* player section  starts from here */
+    /*--------------------------------
+       player section  starts from here
+     -------------------------------- */
       
   .container{
     width: 100%;
@@ -158,18 +201,14 @@ iframe{
 
 }
 
-/* gallery section starts from here */
+/*-------------------------------------------------
+       gallery section starts from here
+ -------------------------------------------- */
 .gallery-images-main {
     display: grid;
     grid-template-columns: repeat(3 ,1fr);
     grid-column-gap: 10px;
     grid-row-gap: 20px;
 }
-
-
-
-
-   .video-gallery , footer{
-        display: none;
-    }
 }
+

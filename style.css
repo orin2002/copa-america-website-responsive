@@ -14,6 +14,7 @@ body{
 .container{
 width: 1000px;
 padding: 30px;
+/* padding: 45px; */
 }
 section{
     margin-bottom: 25px;
@@ -70,6 +71,7 @@ header{
 .header-img img{
     width: 100%;
 }
+
 /* ---------------------------------
     main section starts from here
 ----------------------------------*/
@@ -108,7 +110,9 @@ main{
     font-weight: bold;
 }
 
-/* gallery section starts from here */
+/*--------------------------------------------------
+           gallery section starts from here 
+ ----------------------------------------------------*/
 
 .gallery-title h2{
     font-size: 30px;
@@ -124,7 +128,9 @@ main{
    grid-column-gap: 30px;
    grid-row-gap: 20px;
 }
-/* video section starts from here */
+/* ---------------------------------------------------------
+              video section starts from here 
+-----------------------------------------------------*/
 .video-title h2{
     font-size: 30px;
 }
@@ -138,7 +144,9 @@ iframe{
     width: 280px;
     height: 250px;
 }
-/* footer section starts from here */
+/* --------------------------------------------------
+              footer section starts from here
+----------------------------------------------------- */
 .footer-image{
     text-align: center;
 }
@@ -167,3 +175,4 @@ font-size: 18px;
 font-weight: bold;
 text-align: center;
 }
+
