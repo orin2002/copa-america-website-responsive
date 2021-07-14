@@ -15,6 +15,9 @@ body{
 width: 1000px;
 padding: 30px;
 }
+section{
+    margin-bottom: 25px;
+}
 /* ---------------------------------
     Header section starts from here
 ----------------------------------*/
@@ -61,8 +64,11 @@ header{
     line-height: 16px;
     padding-left: 5px;
 }
-.header-img img{
+.header-img{
     width: 550px;
+}
+.header-img img{
+    width: 100%;
 }
 /* ---------------------------------
     main section starts from here
@@ -80,15 +86,20 @@ main{
     grid-row-gap: 10px;
 }
 .player-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     padding: 5px;
     border-radius: 5px;
     box-shadow:  0 4px 8px 1px rgba(0, 0, 0, 0.2);
+
     
 }
-.player-box:hover{
+/* .player-box:hover{
     transform: scale(1.010);
     transition: transform 0.5s linear;
-}
+} */
 .player-img img{
     width: 330px;
 }
@@ -96,4 +107,63 @@ main{
     font-size: 28px;
     font-weight: bold;
 }
+
+/* gallery section starts from here */
+
+.gallery-title h2{
+    font-size: 30px;
+}
+.gallery-images-main img{
+    width: 380px;
+    height: 300px;
+}
+
+.gallery-images-main{
+   display: grid;
+   grid-template-columns: repeat(3 ,1fr);
+   grid-column-gap: 30px;
+   grid-row-gap: 20px;
+}
+/* video section starts from here */
+.video-title h2{
+    font-size: 30px;
+}
+.video-file{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-column-gap: 20px;
+
+}
+iframe{
+    width: 280px;
+    height: 250px;
+}
 /* footer section starts from here */
+.footer-image{
+    text-align: center;
+}
+.footer-image img{
+    width: 485px;
+}
+.social-icon{
+    text-align: center;
+}
+.social-icon a{
+display: inline-block;
+height: 32px;
+width: 32px;
+border-radius: 50%;
+background-color: #e7e7e8;
+text-decoration: none;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+color: #969bab;
+margin-left: 10px;
+}
+
+.footer-copyright-text p{
+font-size: 18px;
+font-weight: bold;
+text-align: center;
+}
